@@ -1,0 +1,158 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #f3ac72;
+    color: #6d3728;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    font: bold 60px 'DM Serif Display';
+    justify-content: space-between;
+    padding-top: 10px;
+    background: #F9E0BB;
+    height: 90px;
+}
+
+#logoName {
+    font-size: 60px;
+    text-decoration: none;
+    color: #884A39;
+}
+
+#logo {
+    height: 65px;
+    margin-top: 8px;
+    margin-left: 13px;
+    transition: 0.3s;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+}
+
+#cart {
+    height: 50px;
+    margin-top: 5px;
+    margin-right: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.cartCountContainer {
+    margin-left: 20px;
+    color: #793e2d;
+    background-color: #F9E0BB;
+    width: 180px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+#cart:hover {
+    transform: scale(1.1);
+}
+
+.titleContainer,
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    color: #7c4131;
+    font-size: 15px;
+    margin-top: 5px;
+    background-color: #F9E0BB;
+    width: 400px;
+    padding: 0 15px;
+    border-radius: 50px;
+}
+
+.productContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    height: 300px;
+}
+
+.product-name {
+    color: #793e2d;
+}
+
+.productCard {
+    background-color: #F9E0BB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px #7c4131;
+    padding-top: 10px;
+    transition: 0.3s;
+}
+.productCard:active{
+    background-color: #e8c590;
+}
+
+.productCard:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#productImage {
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.productInfo {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.cart {
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    box-shadow: 5px 5px 10px 0px #7c4131;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.productList {
+    display: flex;
+    align-items: flex-start;
+    width: 400px;
+}
+
+#list {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.container2 {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#list {
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Beans</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="#"><img id="logo" src="logo-real.png" alt="Logo"></a>
+            <div id="name"><a id="logoName" href="#">Coffee Beans</a></div>
+            <div id="cart"><img id="cart" src="cart.png" alt="Shopping Cart"></div>
+        </div>
+        <div class="cartCountContainer">
+            <h2>Items Added : <span id="cart-count">0</span></h2>
+        </div>
+        <div class="titleContainer">
+            <div class="title">
+                <h1>Our Products</h1>
+            </div>
+        </div>
+        <div class="productContainer">
+            <div class="productCard">
+                <div class="productPhoto">
+                    <img id="productImage" src="latte.jpeg" alt="">
+                </div>
+                    <div class="productInfo">
+                        <h2 class="product-name">Coffee Latte</h2>
+                        <h2>$<span id="price">5</span></h2>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productPhoto">
+                    <img id="productImage" src="americano.jpeg" alt="">
+                </div>
+                    <div class="productInfo">
+                        <h2 class="product-name">Americano</h2>
+                        <h2>$<span id="price">8</span></h2>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productPhoto">
+                    <img id="productImage" src="cappuccino.jpeg" alt="">
+                </div>
+                    <div class="productInfo">
+                        <h2 class="product-name">Cappuccino</h2>
+                        <h2 class="dollar">$<span id="price">10</span></h2>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productPhoto">
+                    <img id="productImage" src="cortado.jpeg" alt="">
+                </div>
+                    <div class="productInfo">
+                        <h2 class="product-name">Cortado</h2>
+                        <h2>$<span id="price">3</span></h2>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productPhoto">
+                    <img id="productImage" src="espresso.jpg" alt="">
+                </div>
+                    <div class="productInfo">
+                        <h2 class="product-name">Espresso</h2>
+                        <h2>$<span id="price">8</span></h2>
+                </div>
+            </div>
+            <div class="productCard">
+                <div class="productPhoto">
+                    <img id="productImage" src="iced coffee.jpeg" alt="">
+                </div>
+                    <div class="productInfo">
+                        <h2 class="product-name">Iced Coffee</h2>
+                        <h2>$<span id="price">10</span></h2>
+                </div>
+            </div>
+            
+        </div>
+          <div class="container2">
+            <div class="cart">
+                <div class="title2">
+                    <h1>CART</h1>
+                </div>
+                <div class="productList">
+                    <ul id="list">
+                        
+                    </ul>
+                </div>
+                <div class="total">
+                    <h2>Total : $<span id="totalPrice">0</span></h2>
+                </div>
+            </div>
+          </div>
+    </div>
+    
+    <script type="module" src="script.js"></script>
+</body>
+</html>
